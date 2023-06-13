@@ -1,0 +1,225 @@
+{
+    "intents": [
+        
+    {
+        "tag": "CCIT_Programs",
+        "patterns": [
+              "What are the courses offered in the College of Communication and Information Technology?",
+              "Can you tell me about the degree programs in CCIT?",
+              "What majors are available in the CCIT department?",
+              "I'm interested in studying in the CCIT, what degree programs are available?",
+              "Which degree programs are available in the College of Communication and Information Technology?",
+              "ccit programs"
+            ],
+            "responses": [
+               "The College of Communication and Information Technology offers the following degree programs:<br><br>- Bachelor of Science in Computer Science (Accredited Level III Phase 1)<br>- Bachelor of Science in Information Technology (Accredited Level II)<br>- Bachelor of Library and Information Science (Accredited Level II)"
+            ]
+      },
+      {
+        "tag": "CA_Programs",
+        "patterns": [
+              "What are the courses offered in the College of Architecture?",
+              "Can you tell me about the degree programs in CA?",
+              "What majors are available in the CA department?",
+              "I'm interested in studying in the CA, what degree programs are available?",
+              "Which degree programs are available in the College of Architecture?"
+            ],
+            "responses": [
+              "The College of Architecture offers the following degree programs:<br><br>- Bachelor of Science in Architecture, Ladder-type Program"
+            ]
+      },
+  
+  {
+        "tag": "CAS_Programs",
+        "patterns": [
+              "What are the courses offered in the College of Arts and Sciences?",
+              "Can you tell me about the degree programs in CAS?",
+              "What majors are available in the CAS department?",
+              "I'm interested in studying in the CAS, what degree programs are available?",
+              "Which degree programs are available in the College of Arts and Sciences?"
+            ],
+            "responses": [
+              "The College of Arts and Sciences offers the following degree programs:<br><br>- Bachelor of Arts in Communication (Accredited Level III)<br>- Bachelor of Arts in Political Science (Accredited Level IV Phase 1)<br>- Bachelor of Science in Biology (Accredited Level IV Phase 1)<br>- Bachelor of Science in Biology (Marine) (Preliminary Survey)<br>- Bachelor of Science in Environmental Science (Accredited Level II)<br>- Bachelor of Science in Mathematics (Accredited Level IV Phase 1)<br>- Bachelor of Science in Physics (Accredited Level IV Phase 1)<br>- Bachelor of Science in Psychology (Accredited Level III Phase 1)<br>- Master of Statistics (Preliminary Surveyed)<br>- Bachelor of Science in Biology (Special Program)<br>- Bachelor of Science in Psychology (Special Program)"
+            ]
+      },
+      
+  {
+        "tag": "CBAA_Programs",
+        "patterns": [
+              "What are the courses offered in the College of Business Administration and Accountancy?",
+              "Can you tell me about the degree programs in CBAA?",
+              "What majors are available in the CBAA department?",
+              "I'm interested in studying in the CBAA, what degree programs are available?",
+              "Which degree programs are available in the College of Business Administration and Accountancy?"
+            ],
+            "responses": [
+              "The College of Business Administration and Accountancy offers the following degree programs:<br><br>- Doctor in Business Administration (Level III Re-accredited Status)<br>- Master in Business Administration (Level III Re-accredited Status)<br>- Bachelor of Science in Accountancy (Level III Re-accredited Status)<br>- Bachelor of Science in Business Administration<br>- • Major in Financial Management (Level III Re-accredited Status)<br>- • Major in Human Resource Development Management (Level III Re-accredited Status)<br>- Bachelor of Science in Entrepreneurship (Level III Re-accredited Status)<br>- Bachelor of Science in Cooperative Management (Level III Re-accredited Status)<br>- Associate in Office Management"
+            ]
+      },
+  
+  {
+        "tag": "CCJE_Programs",
+        "patterns": [
+              "What are the degree programs offered in the College of Criminal Justice Education?",
+              "Can you tell me about the courses in CCJE?",
+              "What majors are available in the CCJE department?",
+              "I'm interested in studying in the CCJE, what degree programs are available?",
+              "Which degree programs are available in the College of Criminal Justice Education?"
+            ],
+            "responses": [
+              "The College of Criminal Justice Education offers the following degree programs:<br><br>- Bachelor of Science in Criminology (Accredited Level III Phase 1)<br>- Bachelor of Science in Law Enforcement Administration<br>- Master of Science in Criminal Justice with specialization in Criminology"
+            ]
+      },
+  
+  {
+        "tag": "CFAD_Programs",
+        "patterns": [
+              "What are the degree programs offered in the College of Fine Arts and Design?",
+              "Can you tell me about the courses in CFAD?",
+              "What majors are available in the CFAD department?",
+              "I'm interested in studying in the CFAD, what degree programs are available?",
+              "Which degree programs are available in the College of Fine Arts and Design?"
+              ],
+              "responses": [
+              "The College of Fine Arts and Design offers the following degree programs:<br><br>- Bachelor of Science in Interior Design (Re-accredited Level II)<br>- Bachelor of Fine Arts major in Painting<br>- Bachelor of Fine Arts major in Visual Communication<br>- Associate in Commercial Arts"
+              ]
+              },
+  
+              {
+                  "tag": "CHS_Programs",
+                  "patterns": [
+                  "What are the degree programs offered in the College of Health Sciences?",
+                  "Can you tell me about the courses in CHS?",
+                  "What majors are available in the CHS department?",
+                  "I'm interested in studying in the CHS, what degree programs are available?",
+                  "Which degree programs are available in the College of Health Sciences?"
+                  ],
+                  "responses": [
+                  "The College of Health Sciences offers the following degree programs:<br><br>- Bachelor of Science in Medical Laboratory Science<br>- Bachelor of Science in Community Health Management<br>- Bachelor of Science in Midwifery"
+                  ]
+                  },
+                  
+                  {
+                      "tag": "CHTM_Programs",
+                      "patterns": [
+                      "What are the degree programs offered in the College of Hospitality and Tourism Management?",
+                      "Can you tell me about the courses in CHTM?",
+                      "What majors are available in the CHTM department?",
+                      "I'm interested in studying in the CHTM, what degree programs are available?",
+                      "Which degree programs are available in the College of Hospitality and Tourism Management?"
+                      ],
+                      "responses": [
+                      "The College of Hospitality and Tourism Management offers the following degree programs:<br><br>- Bachelor of Science in Hospitality Management (Accredited Level III Phase 1)<br>- Bachelor of Science in Tourism Management (Accredited Level III Phase 1)"
+                      ]
+                      },
+                      
+                      {
+                          "tag": "Law_Programs",
+                          "patterns": [
+                          "What degree programs does the College of Law offer?",
+                          "Can you tell me about the Law programs in your university?",
+                          "What is the Juris Doctor program?",
+                          "What kind of Law degrees are available at your university?"
+                          ],
+                          "responses": [
+                          "The College of Law offers the Juris Doctor (J.D.) program, which is a non-thesis degree program that prepares graduates for the practice of law."
+                          ]
+                          },
+  
+                          {
+                              "tag": "CM_Programs",
+                              "patterns": [
+                                    "What are the degree programs offered in the College of Medicine?",
+                                    "Can you tell me about the programs in the College of Medicine?",
+                                    "What degree programs are available in the College of Medicine?"
+                                  ],
+                              "responses": [
+                                    "The College of Medicine offers the following degree program:<br><br>- Doctor of Medicine"
+                                  ]
+                            },
+  
+                            {
+                              "tag": "CN_Programs",
+                              "patterns": [
+                                "What are the degree programs offered in the College of Nursing?",
+                                "Can you tell me about the nursing programs in the College of Nursing?",
+                                "What majors are available in the College of Nursing?",
+                                "I'm interested in studying nursing, what degree programs are available in the College of Nursing?",
+                                "Which degree programs are available in the College of Nursing?"
+                              ],
+                              "responses": [
+                                "The College of Nursing offers the following degree programs:<br><br>- Bachelor of Science in Nursing (Level IV, 1st survey accreditation, April 1, 2018-March 31, 2019)<br>- Master of Arts in Nursing"
+                              ]
+                            },
+  
+                            {
+                              "tag": "CSW_Programs",
+                              "patterns": [
+                                "What are the degree programs offered in the College of Social Work?",
+                                "Can you tell me about the social work programs in the College of Social Work?",
+                                "What majors are available in the College of Social Work?",
+                                "I'm interested in studying social work, what degree programs are available in the College of Social Work?",
+                                "Which degree programs are available in the College of Social Work?"
+                              ],
+                              "responses": [
+                                "The College of Social Work offers the following degree program:<br><br>- Bachelor of Science in Social Work (Level III, Phase I Accredited)"
+                              ]
+                            },
+  
+                            {
+                              "tag": "CE_Programs",
+                              "patterns": [
+                              "What are the courses offered in the College of Engineering?",
+                              "Can you tell me about the degree programs in CE?",
+                              "What majors are available in the CE department?",
+                              "I'm interested in studying in the CE, what degree programs are available?",
+                              "Which degree programs are available in the College of Engineering?"
+                              ],
+                              "responses": [
+                              "The College of Engineering offers the following degree programs:<br><br>- Bachelor of Science in Civil Engineering (Accredited Level III Phase 1)<br>- Bachelor of Science in Geodetic Engineering (Accredited Level II)<br>- Bachelor of Science in Sanitary Engineering (Accredited Level II)"
+                              ]
+                              },
+  
+                              {
+                                  "tag": "CPA_Programs",
+                                  "patterns": [
+                                  "What are the courses offered in the College of Public Administration?",
+                                  "Can you tell me about the degree programs in CPA?",
+                                  "What majors are available in the CPA department?",
+                                  "I'm interested in studying in the CPA, what degree programs are available?",
+                                  "Which degree programs are available in the College of Public Administration?"
+                                  ],
+                                  "responses": [
+                                  "The College of Public Administration offers the following degree programs:<br><br>- Bachelor of Public Administration (For Level I Accreditation)<br>- Master of Public Administration major in Governmental Administration (Level IV Accredited)<br>- Master of Public Administration major in Local Government Administration (Level IV Accredited)<br>- Master of Public Administration major in Police Administration (Level IV Accredited)<br>- Doctor of Public Administration (Level IV Accredited)"
+                                  ]
+                                  },
+  
+                                  {
+                                      "tag": "CTE_Programs",
+                                      "patterns": [
+                                      "What are the courses offered in the College of Teacher Education?",
+                                      "Can you tell me about the degree programs in CTE?",
+                                      "What majors are available in the CTE department?",
+                                      "I'm interested in studying in the CTE, what degree programs are available?",
+                                      "Which degree programs are available in the College of Teacher Education?"
+                                      ],
+                                      "responses": [
+                                      "The College of Teacher Education offers the following degree programs:<br><br>- Bachelor of Early Childhood Education<br>- Bachelor of Elementary Education (Accredited Level IV Phase I)<br>- Bachelor of Physical Education<br>- Bachelor of Secondary Education, Major in English (Accredited Level IV Phase I)<br>- Bachelor of Secondary Education, Major in Filipino (Accredited Level IV Phase I)<br>- Bachelor of Secondary Education, Major in Mathematics (Accredited Level IV Phase I)<br>- Bachelor of Secondary Education, Major in Science (Accredited Level IV Phase I)<br>- Bachelor of Secondary Education, Major in Social Studies (Accredited Level IV Phase I)<br>- Bachelor of Special Needs Education (Generalist)<br>- Bachelor of Special Needs Education (Early Childhood Education)<br>- Bachelor of Technical-Vocational Teacher Education, Major in Beauty Care and Wellness<br>- Bachelor of Technical-Vocational Teacher Education, Major in Civil and Construction Technology<br>- Bachelor of Technical-Vocational Teacher Education, Major in Electronics Technology<br>- Bachelor of Technical-Vocational Teacher Education, Major in Food Service Management<br>- Bachelor of Technical-Vocational Teacher Education, Major in Garments Fashion and Design<br>- Bachelor of Technology and Livelihood Education, Major in Home Economics<br>- Bachelor of Technology and Livelihood Education, Major in Industrial Arts<br>- Master of Arts in Education<br>- Master of Arts in Guidance and Counselling<br>- Master of Arts in Mathematics Education<br>- Master of Arts in Teaching English<br>- Master of Arts in Teaching Filipino<br>- Master of Arts in Teaching Home Economics<br>- Master of Arts in Teaching Physical Education<br>- Master of Arts in Teaching Practical Arts<br>- Master of Science in Teaching Chemistry<br>- Master of Science in Teaching Physics<br>- Doctor of Education"
+                                      ]
+                                      },
+  
+                                      {
+                                          "tag": "College_of_Technology_Programs",
+                                          "patterns": [
+                                          "What are the courses offered in the College of Technology?",
+                                          "Can you tell me about the degree programs in the College of Technology?",
+                                          "What majors are available in the College of Technology?",
+                                          "I'm interested in studying in the College of Technology, what degree programs are available?",
+                                          "Which degree programs are available in the College of Technology?"
+                                          ],
+                                          "responses": [
+                                          "The College of Technology offers the following degree programs:<br><br>- One-Year Special Course, with specialization in: Automotive Technology, Electrical Technology, Electronics Technology, Refrigeration and Air Conditioning, or Ceramics<br>- Two-Year Technical Course, with specialization in: Automotive Technology, Electrical Technology, or Electronics Technology<br>- Bachelor of Science in Industrial Technology (Accredited Level III), with specialization in: Automotive Technology, Electrical Technology, Electronics Technology"
+                                          ]
+                                          }
+                                        ]
+                                    }

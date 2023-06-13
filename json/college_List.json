@@ -1,0 +1,23 @@
+{
+    "intents": [
+        {
+            "tag": "College_list",
+            "patterns": [
+              "What are the different colleges in UNP?",
+              "What are the different colleges in unp?",
+              "Can you provide me a list of colleges?",
+              "provide me a LIST of colleges",
+              "college offer of the unp?",
+              "college offer of the UNP?",
+              "i want to know the colleges of the University of Northern Philippines",
+              "UNP COLLEGES",
+              "unp colleges",
+              "give me list of the colleges that unp is offering."
+            ],
+            "responses": [
+                "The University of Northern Philippines has the following colleges: <br><br>College of Architecture (CA)<br>College of Arts and Sciences (CAS)<br>College of Business, Administration and Accountancy (CBAA)<br>College of Computing and Information Technologies (CCIT)<br>College of Criminal Justice Education (CCJE)<br>College of Fine Arts and Design (CFAD)<br>College of Health Sciences (CHS)<br>College of Hospitality and Tourism Management (CHTM)<br>College of Law (CL)<br>College of Medicine (CM)<br>College of Nursing (CN)<br>College of Engineering (COE)<br>College of Teacher Education (CTE)<br>College of Public Administration (CPA)<br>College of Technology (CTech)<br>College of Social Work (CSW) "
+            ]
+          }
+          
+    ]
+}

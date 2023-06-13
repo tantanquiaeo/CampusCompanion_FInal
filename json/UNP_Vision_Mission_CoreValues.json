@@ -1,0 +1,34 @@
+{
+  "intents": [
+{
+    "tag": "UNP_Vision_Mission_CoreValues",
+    "patterns": [
+      "What is the vision statement of the University of Northern Philippines?",
+      "What is the vision of the university?",
+      "What is the vision of UNP?",
+      "What is the mission statement of the University of Northern Philippines?",
+      "What is the mission of the University of Northern Philippines?",
+      "What is the mission of the university?",
+      "What is the mission of the UNP?",
+      "I want to know about the vision of UNP.",
+      "I want to know about the mission of UNP.",
+      "What is the vision and mission of the university?",
+      "What is the vision and mission of the UNP?",
+      "What is the vision and mission of the university of northern Philippines?",
+      "What are the Core Values of the UNP?",
+      "What are the Core values of the University of Northern Philippines?",
+      "What are the Core values of the University?",
+      "Can you give me the Core values of the University of Northern Philippines?",
+      "Can you give me the Core values of the University?",
+      "Can you give me the Core values?",
+      "What is the vision, mission and Core Values of the university of northern Philippines?",
+      "What is the vision, mission and Core Values of the university?",
+      "What is the vision, mission and Core Values of UNP?"
+    ],
+    "responses": [
+      "The University of Northern Philippines vision is to become a globally recognized university in a heritage city by 2030. Its mission is to produce globally skilled and morally upright professionals instilled with rich cultural values. The core values of the University of Northern Philippines are based on the principles of SERVANT Leadership which includes Selfless Service, Excellence, Respect and Righteousness, innoVation, Altruism, iNtegrity, Transparency and Teamwork."
+    ]
+  }
+  ]
+}
+  

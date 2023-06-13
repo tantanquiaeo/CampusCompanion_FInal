@@ -1,0 +1,20 @@
+{
+    "intents": [
+{
+    "tag": "UNP_Board_Regents",
+    "patterns": [
+    "What is the board of regents, and what role do they play in governing the University of Northern Philippines?",
+    "Who are the members of the board of regents, and how are they selected?",
+    "What specific responsibilities does the board of regents have with regards to the university's finances?",
+    "What kinds of issues or challenges has the board of regents faced in the past, and how have they addressed them?",
+    "Who appoints the members of the board of regents, and how long do they typically serve in their roles?",
+    "What are the specific qualifications or criteria for individuals to serve on the board of regents?",
+    "What policies or procedures does the board of regents have in place to ensure transparency and accountability in their decision-making process?"
+    ],
+    "responses": [
+    "Members of the Board of Regents of the University of Northern Philippines include: <br> HON. MARITA R. CANAPI, Commissioner, CHED <br> HON. ERWIN F. CADORNA, Vice Chairperson <br> HON. JOEL VILLANUEVA, Representative Senate of the Philippines, Member <br> HON. MARK O. GO, House of Representative, Member <br> HON. NESTOR G. RILLON, Director, NEDA RO1, Member <br> HON. ARMANDO Q. GANAL, Director, DOST RO1, Member <br> HON. CARMELITA P. CRISOLOGO, Representative, Prominent Private Citizen, Member <br> HON. RYAN LUIS V. SINGSON, President, Federated Alumni Association, Member <br> HON. MARIO P. OBRERO, President, Faculty Union, Member <br> HON. DARYL JEREMY F. VIRTUDES, President, Student Council, Member <br> ATTY. JONALYN R. ALMACHAR, University Board Secretary"
+    ]
+    }
+    
+    ]
+}

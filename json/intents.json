@@ -1,0 +1,76 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "Olla",
+        "Naimbag nga aldaw"
+      ],
+      "responses": [
+        "Hey its your Campus Companion, how can i help you",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who is your creator", "creator of this system", "can you give me the creator of this chatbot", "who is the creator of the appwho is the creator of the app"],
+      "responses": ["THe creator of this System is compose of the following: <br><br>Lead Programmer: Cyrus Tristan Quia-eo<br>Documenter: Kim Jaspher Rosales<br>Documenter: Jerome Barrientos"]
+    }
+
+
+                                        
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                                  
+                                              
+                                              
+                                              
+                                          
+                                            
+                                            
+                                            
+                                             
+                                          
+                                          
+                                          
+                                          
+
+                                        
+                                
+                                        
+                                        
+                                        
+
+                                        
+
+
+
+
+    
+  ]
+}

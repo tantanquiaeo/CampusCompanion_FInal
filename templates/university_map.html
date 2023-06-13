@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Map - Campus Companion</title>
+</head>
+<body>
+  <div class="app-container">
+    <div class="app-left">
+     
+      <div class="app-profile-box">
+        <img src="http://unp.edu.ph/wp-content/uploads/2021/07/cropped-site-icon-unp-270x270.png" alt="profile">
+        <div class="app-profile-box-name">
+          Campus Companion
+          <button class="app-setting">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-settings" viewBox="0 0 24 24">
+              <defs/>
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"/>
+            </svg>
+          </button>
+        </div>
+        <p class="app-profile-box-title">op@unp.edu.ph</p>
+      
+      </div>
+      <div class="chat-list-wrapper">
+        
+        <ul class="chat-list active">
+          <li class="chat-list-item" id="chatbox">
+            <img src="/static/images/chat.png" alt="chat">
+            <span class="chat-list-name">Chat</span>
+          </li>
+          <li class="chat-list-item" id="uni-web" onclick="openUniWebsite()">
+            <img src="/static/images/college.png" alt="chat">
+            <span class="chat-list-name">University Website</span>
+          </li>
+          <li class="chat-list-item active" id="unimap">
+            <img src="/static/images/map.png" alt="chat">
+            <span class="chat-list-name">University Map</span>
+          </li>
+          <li class="chat-list-item" id="feedback">
+            <img src="/static/images/feedback.png" alt="chat">
+            <span class="chat-list-name">Feedback</span>
+          </li>
+          <li class="chat-list-item" id="logout-btn">
+            <img src="/static/images/logout.png" alt="chat">
+            <span class="chat-list-name">Logout</span>
+          </li>
+          
+        </ul>
+      </div>
+    
+    </div>
+   
+
+        <img src="https://www.mbbs-md.com/wp-content/uploads/2017/05/university-map.jpg" alt="" style="width: 50%;">
+ 
+    <div class="app-right">
+      <div class="app-profile-box">
+        <img src="https://static.vecteezy.com/system/resources/previews/000/439/863/original/vector-users-icon.jpg" alt="profile">
+        <p class="app-profile-box-title name"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> {% if 'email' in session %}
+          {{ session['full_name'] }}
+        {% else %}
+          unknown full name
+        {% endif %}</p>
+        <p class="app-profile-box-title mail">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+          {% if 'email' in session %}
+            {{ session['email'] }}
+          {% else %}
+            unknown email
+          {% endif %}
+        </p>
+    
+    <defs/>
+    <path d="M21 8v13H3V8M1 3h22v5H1zM10 12h4"/>
+  </svg></button>
+      </div>
+       
+      </div>
+      <div class="app-right-bottom">
+        <div class="app-theme-selector">
+        <button class="theme-color indigo" data-color="indigo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" title="Indigo">
+            <defs/>
+            <path fill="#fff" d="M451.648.356c-25.777 2.712-56.79 19.872-94.811 52.46-68.786 58.958-149.927 160.756-202.185 234-38.158-5.951-78.375 10.368-102.187 40.133C8.758 381.584 45.347 430.34 4.12 473.811c-7.179 7.569-4.618 20.005 4.98 24.114 67.447 28.876 153.664 10.879 194.109-31.768 24.718-26.063 38.167-64.54 31.411-100.762 72.281-55.462 172.147-140.956 228.7-211.885 31.316-39.277 47.208-70.872 48.584-96.59C513.759 22.273 486.87-3.346 451.648.356zM181.443 445.511c-27.362 28.85-87.899 45.654-141.767 31.287 30.12-48.043 4.229-91.124 36.214-131.106 26.246-32.808 79.034-41.993 109.709-11.317 35.839 35.843 19.145 86.566-4.156 111.136zm3.07-148.841c7.354-10.167 18.887-25.865 33.29-44.659l49.22 49.224c-18.125 14.906-33.263 26.86-43.077 34.494-8.842-15.879-22.526-30.108-39.433-39.059zM481.948 55.316c-3.368 63.004-143.842 186.021-191.797 226.621l-53.785-53.79c39.458-49.96 155.261-191.312 218.422-197.954 16.851-1.775 28.03 8.858 27.16 25.123z"/>
+          </svg>
+        </button>
+        <button class="theme-color pink" data-color="pink" title="Pink">
+          <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" >
+            <defs/>
+            <path fill="#fff" d="M451.648.356c-25.777 2.712-56.79 19.872-94.811 52.46-68.786 58.958-149.927 160.756-202.185 234-38.158-5.951-78.375 10.368-102.187 40.133C8.758 381.584 45.347 430.34 4.12 473.811c-7.179 7.569-4.618 20.005 4.98 24.114 67.447 28.876 153.664 10.879 194.109-31.768 24.718-26.063 38.167-64.54 31.411-100.762 72.281-55.462 172.147-140.956 228.7-211.885 31.316-39.277 47.208-70.872 48.584-96.59C513.759 22.273 486.87-3.346 451.648.356zM181.443 445.511c-27.362 28.85-87.899 45.654-141.767 31.287 30.12-48.043 4.229-91.124 36.214-131.106 26.246-32.808 79.034-41.993 109.709-11.317 35.839 35.843 19.145 86.566-4.156 111.136zm3.07-148.841c7.354-10.167 18.887-25.865 33.29-44.659l49.22 49.224c-18.125 14.906-33.263 26.86-43.077 34.494-8.842-15.879-22.526-30.108-39.433-39.059zM481.948 55.316c-3.368 63.004-143.842 186.021-191.797 226.621l-53.785-53.79c39.458-49.96 155.261-191.312 218.422-197.954 16.851-1.775 28.03 8.858 27.16 25.123z"/>
+          </svg>
+        </button>
+        <button class="theme-color navy-dark active" data-color="navy-dark" title="Navy Dark">
+          <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+            <defs/>
+            <path fill="#fff" d="M451.648.356c-25.777 2.712-56.79 19.872-94.811 52.46-68.786 58.958-149.927 160.756-202.185 234-38.158-5.951-78.375 10.368-102.187 40.133C8.758 381.584 45.347 430.34 4.12 473.811c-7.179 7.569-4.618 20.005 4.98 24.114 67.447 28.876 153.664 10.879 194.109-31.768 24.718-26.063 38.167-64.54 31.411-100.762 72.281-55.462 172.147-140.956 228.7-211.885 31.316-39.277 47.208-70.872 48.584-96.59C513.759 22.273 486.87-3.346 451.648.356zM181.443 445.511c-27.362 28.85-87.899 45.654-141.767 31.287 30.12-48.043 4.229-91.124 36.214-131.106 26.246-32.808 79.034-41.993 109.709-11.317 35.839 35.843 19.145 86.566-4.156 111.136zm3.07-148.841c7.354-10.167 18.887-25.865 33.29-44.659l49.22 49.224c-18.125 14.906-33.263 26.86-43.077 34.494-8.842-15.879-22.526-30.108-39.433-39.059zM481.948 55.316c-3.368 63.004-143.842 186.021-191.797 226.621l-53.785-53.79c39.458-49.96 155.261-191.312 218.422-197.954 16.851-1.775 28.03 8.858 27.16 25.123z"/>
+          </svg>
+        </button>
+        <button class="theme-color dark" data-color="dark" title="Dark">
+          <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+            <defs/>
+            <path fill="currentColor" d="M451.648.356c-25.777 2.712-56.79 19.872-94.811 52.46-68.786 58.958-149.927 160.756-202.185 234-38.158-5.951-78.375 10.368-102.187 40.133C8.758 381.584 45.347 430.34 4.12 473.811c-7.179 7.569-4.618 20.005 4.98 24.114 67.447 28.876 153.664 10.879 194.109-31.768 24.718-26.063 38.167-64.54 31.411-100.762 72.281-55.462 172.147-140.956 228.7-211.885 31.316-39.277 47.208-70.872 48.584-96.59C513.759 22.273 486.87-3.346 451.648.356zM181.443 445.511c-27.362 28.85-87.899 45.654-141.767 31.287 30.12-48.043 4.229-91.124 36.214-131.106 26.246-32.808 79.034-41.993 109.709-11.317 35.839 35.843 19.145 86.566-4.156 111.136zm3.07-148.841c7.354-10.167 18.887-25.865 33.29-44.659l49.22 49.224c-18.125 14.906-33.263 26.86-43.077 34.494-8.842-15.879-22.526-30.108-39.433-39.059zM481.948 55.316c-3.368 63.004-143.842 186.021-191.797 226.621l-53.785-53.79c39.458-49.96 155.261-191.312 218.422-197.954 16.851-1.775 28.03 8.858 27.16 25.123z"/>
+          </svg>
+        </button>
+      </div>
+      </div>
+    </div>
+  </div>
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap);
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: var(--app-bg);
+  font-family: "DM Sans", sans-serif;
+  --text-dark: #1a2f45;
+  --text-light: #445e78;
+  --chat-box-dark: #1b243b;
+  --chat-box-light: #fff;
+  --button-text: #fff;
+  --toggle-ball: #fff;
+  --list-item-active: #e5effb;
+  --number-bg: #6895a3;
+  --message-box-1: #fff;
+  --message-box-2: #1a233b;
+  --chat-input: #060415;
+  --border-light: #8187a2;
+  --info-box-color-1: #004dfc;
+  --info-box-color-2: #00ba9d;
+  --info-box-color-3: #715fc2;
+  --info-box-color-4: #ff562d;
+  --info-icon-bg-1: #b1c7fc;
+  --info-icon-bg-2: #c6f0ea;
+  --info-icon-bg-3: #d9d3ff;
+  --info-icon-bg-4: #ffe1d4;
+  --app-bg: #060415;
+  --box-color: #12172d;
+  --box-border: #477eff;
+  --button-bg: #477eff;
+  --text-dark: rgba(255, 255, 255, 1);
+  --text-light: rgba(255, 255, 255, 0.6);
+  --info-box-1: rgba(160, 186, 242, 0.5);
+  --info-box-2: rgba(168, 240, 229, 0.55);
+  --info-box-3: rgba(194, 168, 240, 0.34);
+  --info-box-4: rgba(240, 185, 168, 0.34);
+  --toggle-bg: #477eff;
+  --toggle-bg-off: #6895a3;
+  --message-box-2: #477eff;
+  --message-box-1: #576c99;
+  --logo-path-1: #477eff;
+  --logo-path-2: #576c99;
+  --box-shadow: rgba(18, 23, 45, 0.6) 0px 8px 24px;
+  --scrollbar-thumb: linear-gradient(
+    to bottom,
+    rgba(43, 88, 118, 0.8),
+    rgba(78, 67, 118, 0.8)
+  );
+}
+body[data-theme="indigo"],
+body[data-theme="pink"] {
+  --app-bg: #fff;
+  --box-color: #f5f8fc;
+  --box-border: #e7edf5;
+  --text-dark: #1a2f45;
+  --text-light: #445e78;
+  --chat-box-dark: #1b243b;
+  --chat-box-light: #fff;
+  --button-bg: #004dfc;
+  --button-text: #fff;
+  --toggle-bg: #004dfc;
+  --toggle-bg-off: #6895a3;
+  --toggle-ball: #fff;
+  --logo-path-1: #a0c9e1;
+  --logo-path-2: #18689c;
+  --list-item-active: #e5effb;
+  --number-bg: #6895a3;
+  --message-box-1: #fff;
+  --message-box-2: #1a233b;
+  --chat-input: #f5f8fc;
+  --border-light: #e5e6eb;
+  --info-box-1: rgba(217, 228, 252, 1);
+  --info-box-2: rgba(226, 246, 243, 1);
+  --info-box-3: #f7f3ff;
+  --info-box-4: #fff1e9;
+  --box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --info-box-3: #b3a5ce;
+  --info-box-4: #ffceb3;
+  --scrollbar-thumb: linear-gradient(to top, rgba(131, 164, 212, 0.5), #b6bcff);
+}
+body[data-theme="pink"] {
+  --box-color: #f8f1f1;
+  --button-bg: #1a233b;
+  --logo-path-1: #e8d5db;
+  --logo-path-2: #6895a3;
+  --toggle-bg: #1a233b;
+}
+body[data-theme="navy-dark"] {
+  --app-bg: #060415;
+  --box-color: #12172d;
+  --box-border: #477eff;
+  --button-bg: #477eff;
+  --toggle-bg: #477eff;
+  --toggle-bg-off: #6895a3;
+  --message-box-2: #477eff;
+  --message-box-1: #576c99;
+  --chat-input: #060415;
+  --border-light: #8187a2;
+}
+body[data-theme="dark"],
+body[data-theme="navy-dark"] {
+  --text-dark: rgba(255, 255, 255, 1);
+  --text-light: rgba(255, 255, 255, 0.6);
+  --info-box-1: rgba(160, 186, 242, 0.5);
+  --info-box-2: rgba(168, 240, 229, 0.55);
+  --info-box-3: rgba(194, 168, 240, 0.34);
+  --info-box-4: rgba(240, 185, 168, 0.34);
+  --logo-path-1: #477eff;
+  --logo-path-2: #576c99;
+  --scrollbar-thumb: linear-gradient(
+    to bottom,
+    rgba(43, 88, 118, 0.8),
+    rgba(78, 67, 118, 0.8)
+  );
+}
+body[data-theme="dark"] {
+  --app-bg: #040508;
+  --box-color: #131a24;
+  --box-border: #131a24;
+  --button-bg: #1e2b4a;
+  --toggle-bg: #477eff;
+  --toggle-bg-off: #6895a3;
+  --message-box-2: #1e2b4a;
+  --message-box-1: #576c99;
+  --chat-input: #040508;
+  --border-light: #040508;
+}
+.app-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  padding: 24px;
+  max-width: 1800px;
+}
+.app-left {
+  flex-basis: 320px;
+  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 480px;
+  margin-right: 24px;
+  overflow-y: auto;
+}
+.app-profile-box {
+  border: 1px solid var(--box-border);
+  background-color: var(--box-color);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+.app-profile-box img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.app-profile-box-name {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin: 4px 0;
+  display: flex;
+  align-items: center;
+}
+.app-profile-box-title {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--text-light);
+  margin: 0;
+}
+.app-setting {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  color: var(--text-dark);
+  margin-left: 4px;
+}
+.chat-list {
+  padding: 0;
+  list-style: none;
+  height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-in;
+  display: none;
+  opacity: 0;
+}
+.chat-list.active {
+  display: block;
+  height: auto;
+  max-height: auto;
+  opacity: 1;
+}
+.chat-list-item {
+  transition: 0.2s;
+  padding: 8px 14px;
+  margin: 0;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  position: relative;
+  cursor: pointer;
+}
+.chat-list-item.active {
+  background-color: var(--box-color);
+}
+.chat-list-item.active span {
+  color: var(--text-dark);
+  font-weight: 700;
+}
+.chat-list-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+}
+.chat-list-item:hover {
+  background-color: var(--box-color);
+}
+.chat-list-name {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  color: var(--text-light);
+}
+.app-main {
+  flex: 3;
+  height: 100%;
+  background-color: var(--box-color);
+  border-radius: 10px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s;
+}
+.chat-wrapper {
+  overflow: auto;
+}
+.chat-input {
+  border: none;
+  outline: 0;
+  height: 32px;
+  flex: 1;
+  margin-right: 4px;
+  background-color: var(--chat-input);
+  color: var(--text-dark);
+}
+.chat-input:placeholder {
+  color: var(--text-light);
+  font-size: 12px;
+}
+.chat-input-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: var(--box-shadow);
+  margin-top: auto;
+  border-radius: 6px;
+  padding: 12px;
+  background-color: var(--chat-input);
+}
+.input-wrapper {
+  border: 1px solid var(--border-light);
+  border-radius: 4px;
+  font-size: 12px;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  padding: 0 6px 0 12px;
+  justify-content: space-between;
+  margin: 0 8px;
+  background-color: var(--chat-input);
+}
+.emoji-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 4px;
+  color: #ffca3e;
+}
+.chat-send-btn {
+  height: 32px;
+  color: #fff;
+  background-color: var(--button-bg);
+  border: none;
+  border-radius: 4px;
+  padding: 0 32px 0 10px;
+  font-size: 12px;
+  background-position: center right 8px;
+  background-repeat: no-repeat;
+  background-size: 14px;
+  line-height: 16px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cdefs/%3E%3Cpath fill='%23fff' d='M481.508 210.336L68.414 38.926c-17.403-7.222-37.064-4.045-51.309 8.287C2.86 59.547-3.098 78.551 1.558 96.808L38.327 241h180.026c8.284 0 15.001 6.716 15.001 15.001 0 8.284-6.716 15.001-15.001 15.001H38.327L1.558 415.193c-4.656 18.258 1.301 37.262 15.547 49.595 14.274 12.357 33.937 15.495 51.31 8.287l413.094-171.409C500.317 293.862 512 276.364 512 256.001s-11.683-37.862-30.492-45.665z'/%3E%3C/svg%3E");
+}
+.message-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 20px;
+}
+.message-box {
+  background-color: var(--message-box-1);
+  box-shadow: var(--box-shadow);
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 12px;
+  line-height: 16px;
+  width: auto;
+  max-width: 80%;
+  color: var(--text-dark);
+}
+.message-box-wrapper {
+  margin: 0 12px;
+}
+.message-box-wrapper span {
+  font-size: 10px;
+  line-height: 16px;
+  color: var(--text-light);
+  opacity: 0.6;
+}
+.app-right {
+  flex-basis: 320px;
+  flex-shrink: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  transition: 0.2s;
+  overflow: auto;
+}
+.app-right .app-profile-box img {
+  margin-bottom: 16px;
+}
+.app-right .app-profile-box-title {
+  width: 100%;
+  color: var(--text-dark);
+  display: flex;
+  align-items: center;
+}
+.app-right .app-profile-box-title svg {
+  width: 16px;
+  margin-right: 6px;
+}
+.app-right-bottom {
+  position: fixed;
+  bottom: 0;
+  right: 24px;
+  z-index: 1;
+  background-color: var(--app-bg);
+  display: flex;
+  justify-content: flex-end;
+  margin-top: auto;
+  padding-bottom: 10px;
+}
+.app-theme-selector {
+  background-color: var(--box-color);
+  box-shadow: var(--box-shadow);
+  border: 1px solid var(--box-border);
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  padding: 10px;
+  border-radius: 6px;
+}
+.theme-color {
+  width: 24px;
+  height: 24px;
+  margin-left: 4px;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  color: #fff;
+  cursor: pointer;
+}
+.theme-color.active {
+  border: 1px solid rgba(71, 126, 255, 1);
+  box-shadow: 0 0 0 3px rgba(71, 126, 255, 0.2);
+}
+.theme-color svg {
+  width: 14px;
+  height: 14px;
+}
+.theme-color.indigo {
+  background-color: #18689c;
+}
+.theme-color.pink {
+  background-color: #e8d5db;
+}
+.theme-color.dark {
+  background-color: #060415;
+}
+.theme-color.navy-dark {
+  background-color: #192734;
+  color: #fff;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: var(--scrollbar-thumb);
+}
+@media screen and (max-width: 1100px) {
+  .app-right {
+    transform: translateX(-100%);
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.56, 1);
+  }
+ 
+  
+}
+
+@media only screen and (max-width: 884px) {
+  .app-left {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .app-left {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}
+
+.chatbox {
+ 
+ 
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.message-bubble {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  max-width: 80%;
+}
+
+
+
+.user-message {
+  float: right;
+  clear: both;
+  width: auto;
+  max-width: 60%;
+  padding: 10px;
+  background-color: #DBF5FF;
+  position: relative;
+  margin-right: 50px;
+  text-align: right; /* align text to the right */
+}
+
+/* Set the uploaded profile picture as background image for user messages */
+.user-message::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -50px;
+  top: 100%; /* adjust the top value to vertically center the image */
+  transform: translateY(-50%); /* vertically center the image */
+  width: 40px;
+  height: 40px;
+  background-image: url("https://m.media-amazon.com/images/M/MV5BZmE0NzNiNzQtYTVlYS00MjljLWE4MTgtYzYxNjU2NjZkM2M4XkEyXkFqcGdeQXVyNjY5NDgzNjQ@._V1_FMjpg_UX1000_.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  margin-top: -20px; /* adjust the margin-top value to move the image up */
+  margin-left: 10px;
+}
+
+
+
+
+
+
+.bot-message {
+float: left;
+clear: both;
+width: auto;
+max-width: 60%;
+padding: 10px;
+background-color: #EDEDED;
+position: relative;
+margin-left: 50px;
+text-align: left; /* align text to the left */
+}
+
+.bot-message::after {
+content: "";
+display: block;
+position: absolute;
+left: -50px;
+top: 100%;
+transform: translateY(-50%); 
+width: 40px;
+height: 40px;
+background-image: url("http://unp.edu.ph/wp-content/uploads/2021/07/cropped-site-icon-unp-270x270.png");
+background-size: cover;
+border-radius: 50%;
+margin-top: -20px;
+}
+
+
+.user-message, .bot-message {
+  border-radius: 10px;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-message {
+  width: 85%;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.send-button {
+  width: 15%;
+  border-radius: 10px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #4CAF50;
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+ 
+  </style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+
+
+const uniWeb = document.querySelector('#uni-web');
+  uniWeb.addEventListener('click', () => {
+    window.open('http://unp.edu.ph/', '_blank'); // open the website in a new window
+  });
+
+
+  const unimap = document.querySelector('#unimap');
+  unimap.addEventListener('click', () => {
+    window.location.href = "{{ url_for('university_map') }}";
+
+  });
+  const feedback = document.querySelector('#feedback');
+  feedback.addEventListener('click', () => {
+    window.location.href = "{{ url_for('feedback') }}";
+
+  });
+  
+    const uniChat = document.querySelector('#chatbox');
+    uniChat.addEventListener('click', () => {
+    window.location.href = "{{ url_for('chatbot') }}";
+
+  });
+
+  const logoutBtn = document.querySelector('#logout-btn');
+logoutBtn.addEventListener('click', (event) => {
+  event.preventDefault(); // prevent the default link behavior
+
+  fetch('/logout', { method: 'POST' }) // send a POST request to the Flask route
+    .then(response => {
+      if (response.redirected) {
+        window.location.href = response.url; // redirect to the home page
+      }
+    })
+    .catch(error => console.error(error));
+});
+
+
+    let title = document.querySelectorAll(".chat-list-header");
+let totalHeight = 0;
+
+for(let i = 0; i < title.length; i++){
+  let totalHeight = 0;
+  title[i].addEventListener("click", function(){
+    let result = this.nextElementSibling;
+    let activeSibling = this.nextElementSibling.classList.contains('active');
+    this.classList.toggle('active');
+    result.classList.toggle("active");
+    if(!activeSibling) {
+      for( i= 0; i < result.children.length; i++) {
+        totalHeight = totalHeight +  result.children[i].scrollHeight + 40;
+      }
+    } else {
+      totalHeight = 0;
+    }
+    result.style.maxHeight =  totalHeight + "px";
+  });
+}
+
+const themeColors = document.querySelectorAll('.theme-color');
+
+themeColors.forEach(themeColor => {
+  themeColor.addEventListener('click', (e) => {
+    themeColors.forEach(c => c.classList.remove('active'));
+    const theme = themeColor.getAttribute('data-color');
+    document.body.setAttribute('data-theme', theme);
+    themeColor.classList.add('active');
+  });
+});
+
+
+ 
+  </script>
+</body>
+</html>

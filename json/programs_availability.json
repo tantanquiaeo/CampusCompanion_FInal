@@ -1,0 +1,56 @@
+{
+    "intents": [
+  {
+    "tag": "CS",
+    "patterns": [
+        "Is Computer Science available in your college?",
+        "Can I apply for Computer Science in your college?",
+        "Is there an Computer Science Course Available in UNP",
+        "Can I Apply for Computer Science within your College",
+        "Computer Science Course",
+        "Is CS available in your college?",
+        "Can I apply for CS in your college?",
+        "Is there an CS Course Available in UNP",
+        "Can I Apply for CS within your College",
+        "CS Course",
+        "Is ComScie available in your college?",
+        "Can I apply for ComScie in your college?",
+        "Is there an ComScie Course Available in UNP",
+        "Can I Apply for ComScie within your College",
+        "ComScie Course"
+        
+    ],
+    "responses": [
+        "Yes, Computer Science is available in our college. The program offers a comprehensive curriculum that covers various aspects of the field."
+    ]
+    },
+
+    {
+        "tag": "courses",
+        "patterns": [
+            "Is Computer Science available in your college?",
+            "Can I apply for Computer Science in your college?",
+            "Is there an Computer Science Course Available in UNP",
+            "Can I Apply for Computer Science within your College",
+            "Computer Science Course",
+            "Is CS available in your college?",
+            "Can I apply for CS in your college?",
+            "Is there an CS Course Available in UNP",
+            "Can I Apply for CS within your College",
+            "CS Course",
+            "Is ComScie available in your college?",
+            "Can I apply for ComScie in your college?",
+            "Is there an ComScie Course Available in UNP",
+            "Can I Apply for ComScie within your College",
+            "ComScie Course"
+            
+        ],
+        "responses": [
+            "Yes, Computer Science is available in our college. The program offers a comprehensive curriculum that covers various aspects of the field."
+        ]
+        }
+
+    
+    ]
+  }
+    

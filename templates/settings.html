@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    <div class="settings-page">
+        <div class="settings-container">
+          <h1 class="page-title">Account</h1>
+          <div class="settings-section">
+            <h2 class="settings-title">General Information</h2>
+              <div class="non-active-form">Full Name
+                <p>ccu-an-b</p><i class="fas fa-pen"></i>
+              </div>
+         <div>
+           <div class="non-active-form">Username:
+             <p class="capitalize">chloé</p><i class="fas fa-pen"></i>
+           </div>
+          </div>
+          
+        </div>
+      <div class="settings-section">
+        <h2 class="settings-title">My profile</h2>
+        <form class="form my-form">
+          <div class="img-upload-container">
+            <label class="img-upload btn btn-bwm" style="background-image: url(&quot;/profile-placeholder.jpg&quot;);">
+              <input type="file" accept=".jpg, .png, .jpeg, .gif" value="">
+            </label>
+            <h4>Change Your Profile Picture</h4>
+            <div class="img-preview-container">
+              <div class="img-preview" style="background-image: url('http://www.personalbrandingblog.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png');">
+              </div>
+            </div>
+          </div>
+          <div class="form-submit">
+            <button class="btn button full" type="submit" disabled="">Save New Picture</button>
+          </div>
+        </form>
+      </div>
+      <div class="settings-section">
+        <h2 class="settings-title">Password</h2>
+        <form class="form my-form">
+          <div class="form-group">
+            <div class="input-group">
+              <input name="currentPassword" placeholder="Old Password" type="password" class="form-control" autocomplete="Old Password" value="">
+              <span class="focus-input"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <input name="password" placeholder="New Password" type="password" class="form-control" autocomplete="New Password" value="">
+              <span class="focus-input"></span>
+            </div>
+          </div>
+         <div class="form-submit right">
+           <button class="btn button full" type="submit" disabled="">Change Password</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="settings-section">
+        <h2 class="settings-title">Delete conversation</h2>
+        <form class="form my-form">
+          
+         <div class="form-submit right">
+           <button class="btn button full" type="submit">Delete all conversation</button>
+          </div>
+        </form>
+      </div>
+    
+      </div>
+      </div>
+</body>
+
+<style>
+   @import url(https://fonts.googleapis.com/css?family=Fira+Sans:200,400,500,600,700);
+body {
+  color: #E5DADA;
+  margin: 0;
+  overflow-x: hidden;
+  font-family: 'Fira Sans', sans-serif;
+  background-color: black;
+}
+body::-webkit-scrollbar {
+  width: 8px;
+}
+body::-webkit-scrollbar-track {
+  background: black;
+}
+body::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 3px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+.page-title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-weight: normal;
+}
+.settings-page {
+  background-color: black;
+  width: 100%;
+  min-height: 90vh;
+}
+.settings-page .settings-container {
+  width: 100%;
+  max-width: 850px;
+  margin: auto;
+  padding: 20px;
+  padding-top: 40px;
+}
+.settings-page .settings-container .settings-title {
+  color: #454545;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 20px;
+}
+.settings-page .settings-container .settings-section {
+  width: 100%;
+  border-top: 2px solid #454545;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+.settings-page .settings-container .settings-section .my-form {
+  max-width: 400px;
+  width: 100%;
+  margin: 30px auto;
+}
+.settings-page .settings-container .settings-section .my-form .form-submit.right {
+  justify-content: flex-end;
+}
+.settings-page .settings-container .settings-section .my-form .form-submit {
+  display: flex;
+}
+.settings-page .settings-container .settings-section .my-form .form-submit .btn {
+  width: 50%;
+}
+.settings-page .settings-container .settings-section .my-form .form-group.editable .input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.settings-page .settings-container .settings-section .my-form .form-group.editable .input-group .form-control {
+  margin-bottom: 0;
+}
+.settings-page .settings-container .settings-section .my-form .form-group.editable .input-group .btn {
+  height: 38px;
+  margin: 0 10px;
+  background-color: #E59500;
+  transition: all 0.5s;
+}
+.settings-page .settings-container .settings-section .my-form .form-group.editable .input-group .btn:hover {
+  color: #E59500;
+  background-color: #E5DADA;
+}
+.settings-page .settings-container .settings-section .my-form .form-group.editable .input-group i {
+  cursor: pointer;
+  color: #454545;
+  transition: all 0.5s;
+}
+.settings-page .settings-container .settings-section .my-form .form-group.editable .input-group i:hover {
+  color: #E59500;
+}
+.settings-page .settings-container .settings-section .non-active-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.settings-page .settings-container .settings-section .non-active-form p {
+  padding: 7px 15px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  cursor: default;
+}
+.settings-page .settings-container .settings-section .non-active-form i {
+  cursor: pointer;
+  color: #454545;
+  transition: all 0.5s;
+  margin-right: 10px;
+}
+.settings-page .settings-container .settings-section .non-active-form i:hover {
+  color: #E59500;
+  transform: scale(1.1);
+}
+.img-upload-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1em;
+}
+.img-upload-container label {
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 0.25rem;
+  height: 80px;
+  min-width: 80px;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+  background-size: contain;
+}
+.img-upload-container h4 {
+  text-align: left;
+  font-size: 16px;
+  color: grey;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.img-upload-container h4:hover {
+  color: white;
+}
+.img-upload-container .img-preview-container {
+  position: absolute;
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+.img-upload-container .img-preview {
+  background: center center no-repeat;
+  background-size: cover;
+  height: 80px;
+  width: 80px;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.img-upload-container .img-upload {
+  margin-bottom: 0;
+}
+.img-upload-container input {
+  display: none;
+}
+.img-upload-container .alert {
+  margin-top: 10px;
+  position: absolute;
+  bottom: 0px;
+  background-color: transparent;
+  border: 0;
+  color: #E59500;
+}
+.my-form {
+  visibility: visible;
+}
+.my-form .form-group .input-group {
+  border-radius: 0.25rem;
+  overflow: hidden;
+}
+.my-form .form-group .input-group input.form-control {
+  border: none;
+  padding: 10px 15px;
+  background-color: #2e2e2e;
+  color: #E5DADA;
+  font-family: 'Fira Sans', sans-serif;
+}
+.my-form .form-group .alert-input {
+  color: #E59500;
+  font-weight: 100;
+  font-size: 13px;
+}
+.my-form .form-submit {
+  width: 100%;
+}
+.my-form .form-submit .btn {
+  width: 100%;
+  border-radius: 0.25rem;
+  background-color: grey;
+  color: #E5DADA;
+  cursor: default;
+}
+.my-form .form-submit .btn:disabled {
+  opacity: 0.75;
+}
+.my-form .form-submit .btn:not(:disabled):not(.disabled) {
+  background-color: #E59500;
+}
+
+</style>
+</html>

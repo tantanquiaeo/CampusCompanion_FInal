@@ -1,0 +1,209 @@
+{
+    "intents": [
+        {
+            "tag": "CA_email",
+            "patterns": [
+              "What is the email of the College of Architecture?",
+              "Can you provide me the email of the CA?",
+              "How can I contact the CA department?",
+              "What email can I use to contact the College of Architecture?"
+            ],
+            "responses": [
+                "You can contact the College of Architecture by email at carch@unp.edu.ph. Please feel free to reach out to them anytime with any questions or concerns you may have."
+            ]
+          }
+          ,
+
+
+          {
+            "tag": "CAS_email",
+            "patterns": [
+              "What is the email of the College of Arts and Sciences?",
+              "Can you provide me the email of the CAS?",
+              "How can I contact the CAS department?",
+              "What email can I use to contact the College of Arts and Sciences?"
+            ],
+            "responses": [
+                "You can contact the College of Arts and Sciences by email at cas66@yahoo.com. Please feel free to reach out to them anytime with any questions or concerns you may have."
+            ]
+          }
+          ,
+
+          {
+            "tag": "CBAA_email",
+            "patterns": [
+              "What is the email of the College of Business Administration and Accountancy?",
+              "Can you provide me the email of the CBAA?",
+              "How can I contact the CBAA department?",
+              "What email can I use to contact the College of Business Administration and Accountancy?"
+            ],
+            "responses": [
+              "You can contact the College of Business Administration and Accountancy by email at unpcbaaeagles@gmail.com. Please feel free to reach out to them anytime with any questions or concerns you may have."
+            ]
+          }
+          ,
+
+          {
+            "tag": "CCIT_email",
+            "patterns": [
+              "What is the email of the College of Computing and Information Technology?",
+              "Can you provide me the email of the CCIT?",
+              "How can I contact the CCIT department?",
+              "What email can I use to contact the College of Computing and Information Technology?"
+            ],
+            "responses": [
+              "You can contact the College of Computing and Information Technology by email at ccit@unp.edu.ph. Please feel free to reach out to them anytime with any questions or concerns you may have."
+            ]
+          }
+          ,
+
+          {
+            "tag": "CCJE_email",
+            "patterns": [
+              "What is the email of the College of Criminal Justice Education?",
+              "Can you provide me the email of the CCJE?",
+              "How can I contact the CCJE department?",
+              "What email can I use to contact the College of Criminal Justice Education?"
+            ],
+            "responses": [
+              "You can contact the College of Criminal Justice Education by email at sina.bestre@unp.edu.ph. Please feel free to reach out to them anytime with any questions or concerns you may have."
+            ]
+          }
+          ,
+
+          {
+            "tag": "CFAD_email",
+            "patterns": [
+              "What is the email of the College of Fine Arts and Design?",
+              "Can you provide me the email of the CFAD?",
+              "How can I contact the CFAD department?",
+              "What email can I use to contact the College of Fine Arts and Design?"
+            ],
+            "responses": [
+              "You can contact the College of Fine Arts and Design by email at cfad@unp.edu.ph. Please feel free to reach out to them anytime with any questions or concerns you may have."
+            ]
+          }
+          ,
+  
+  {
+    "tag": "CHS_Dean",
+    "patterns": [
+      "Who is the dean of the College of Health Sciences?",
+      "Can you provide me information about the CHS dean?",
+      "Who leads the CHS department?",
+      "Who is the head of the College of Health Sciences?"
+    ],
+    "responses": [
+      "The current dean of the College of Health Sciences is Dr. Joussie B. Bermio (ASSOCIATE PROFESSOR V)."
+    ]
+  },
+    
+  {
+    "tag": "CHTM_email",
+    "patterns": [
+      "What is the email of the College of Hospitality and Tourism Management?",
+      "Can you provide me the email of the CHTM?",
+      "How can I contact the CHTM department?",
+      "What email can I use to contact the College of Hospitality and Tourism Management?"
+    ],
+    "responses": [
+      "You can contact the College of Hospitality and Tourism Management by email at chtm.unp@gmail.com. Please feel free to reach out to them anytime with any questions or concerns you may have."
+    ]
+  }
+  ,
+      
+  {
+    "tag": "CL_email",
+    "patterns": [
+      "What is the email of the College of Law?",
+      "Can you provide me the email of the CL?",
+      "How can I contact the College of Law department?",
+      "What email can I use to contact the College of Law?"
+    ],
+    "responses": [
+      "You can contact the College of Law by email at unp_collegeoflaw@yahoo.com. Please feel free to reach out to them anytime with any questions or concerns you may have."
+    ]
+  }
+  ,
+
+  {
+    "tag": "CM_email",
+    "patterns": [
+      "What is the email of the College of Medicine?",
+      "Can you provide me the email of the CM?",
+      "How can I contact the College of Medicine department?",
+      "What email can I use to contact the College of Medicine?"
+    ],
+    "responses": [
+      "You can contact the College of Medicine by email at cmed@unp.edu.ph. Please feel free to reach out to them anytime with any questions or concerns you may have."
+    ]
+  },
+      
+  {
+    "tag": "CN_email",
+    "patterns": [
+      "What is the email of the College of Nursing?",
+      "Can you provide me the email of the CN?",
+      "How can I contact the CN department?",
+      "What email can I use to contact the College of Nursing?"
+    ],
+    "responses": [
+      "You can contact the College of Nursing by email at unpnursingvc@yahoo.com. Please feel free to reach out to them anytime with any questions or concerns you may have."
+    ]
+  }
+  ,
+          
+  {
+    "tag": "CSW_email",
+    "patterns": [
+      "What is the email of the College of Social Work?",
+      "Can you provide me the email of the CSW?",
+      "How can I contact the CSW department?",
+      "What email can I use to contact the College of Social Work?"
+    ],
+    "responses": [
+      "You can contact the College of Social Work by email at socialwork.unp@gmail.com. Please feel free to reach out to them anytime with any questions or concerns you may have."
+    ]
+  },
+
+  {
+    "tag": "CE_Dean",
+    "patterns": [
+      "Who is the dean of the College of Engineering?",
+      "Can you provide me information about the CE dean?",
+      "Who leads the CE department?",
+      "Who is the head of the College of Engineering?"
+    ],
+    "responses": [
+      "The current dean of the College of Engineering is Engr. NELIA P. VERZOSA (PROFESSOR V)."
+    ]
+  },
+        
+  {
+    "tag": "CPA_email",
+    "patterns": [
+      "What is the email of the College of Public Administration?",
+      "Can you provide me the email of the CPA?",
+      "How can I contact the CPA department?",
+      "What email can I use to contact the College of Public Administration?"
+    ],
+    "responses": [
+      "You can contact the College of Public Administration by email at cpad@unp.edu.ph. Please feel free to reach out to them anytime with any questions or concerns you may have."
+    ]
+  }
+  ,
+  {
+    "tag": "CTE_email",
+    "patterns": [
+      "What is the email of the College of Teacher Education?",
+      "Can you provide me the email of the CTE?",
+      "How can I contact the CTE department?",
+      "What email can I use to contact the College of Teacher Education?"
+    ],
+    "responses": [
+      "You can contact the College of Teacher Education by email at dean.cte@unp.edu.ph or deancte@yahoo.com. Please feel free to reach out to them anytime with any questions or concerns you may have."
+    ]
+  }
+ 
+    ]
+}

@@ -1,0 +1,212 @@
+{
+    "intents": [
+{
+  "tag": "CA_Dean",
+  "patterns": [
+  "Who is the dean of the College of Architecture?",
+  "Can you provide me information about the CA dean?",
+  "Who leads the CA department?",
+  "Who is the head of the College of Architecture?"
+  ],
+  "responses": [
+  "The current dean of the College of Architecture is Ar/EnP Fatima Nicetas Rabang-Alonzo (PROFESSOR III)."
+  ]
+  },
+
+
+  {
+    "tag": "CAS_Dean",
+    "patterns": [
+      "Who is the dean of the College of Arts and Sciences?",
+      "Can you provide me information about the CAS dean?",
+      "Who leads the CAS department?",
+      "Who is the head of the College of Arts and Sciences?"
+    ],
+    "responses": [
+      "The current dean of the College of Arts and Sciences is Dr. Remedios T. Navarro (ASSOCIATE PROFESSOR V)."
+    ] 
+  },
+
+  {
+    "tag": "CBAA_Dean",
+    "patterns": [
+      "Who is the dean of the College of Business, Administration and Accountancy?",
+      "Can you provide me information about the CBAA dean?",
+      "Who leads the CBAA department?",
+      "Who is the head of the College of Business, Administration and Accountancy?"
+    ],
+    "responses": [
+      "The current dean of the College of Business, Administration and Accountancy is Dr. Gilbert P. Valdez."
+    ]
+  },
+
+  {
+    "tag": "CCIT_Dean",
+    "patterns": [
+      "Who is the dean of the College of Communication and Information Technologies?",
+      "Can you provide me information about the CCIT dean?",
+      "Who leads the CCIT department?",
+      "Who is the head of the College of Communication and Information Technologies?"
+    ],
+    "responses": [
+      "The current dean of the College of Communication and Information Technologies is Rosanne Sadangsak Agup (INSTRUCTOR I)."
+    ]
+  },
+
+  {
+    "tag": "CCJE_Dean",
+    "patterns": [
+      "Who is the dean of the College of Criminal Justice Education?",
+      "Can you provide me information about the CCJE dean?",
+      "Who leads the CCJE department?",
+      "Who is the head of the College of Criminal Justice Education?"
+    ],
+    "responses": [
+      "The current dean of the College of Criminal Justice Education is Dr. Sina C. Bestre (ASSOCIATE PROFESSOR II)."
+    ]
+  },
+
+  {
+    "tag": "CFAD_Dean",
+    "patterns": [
+      "Who is the dean of the College of Fine Arts and Design?",
+      "Can you provide me information about the CFAD dean?",
+      "Who leads the CFAD department?",
+      "Who is the head of the College of Fine Arts and Design?"
+    ],
+    "responses": [
+      "The current dean of the College of Fine Arts and Design is Prof. Ashley S. Martinez (ASSOCIATE PROFESSOR V)."
+    ]
+  },
+  
+  {
+    "tag": "CHS_Dean",
+    "patterns": [
+      "Who is the dean of the College of Health Sciences?",
+      "Can you provide me information about the CHS dean?",
+      "Who leads the CHS department?",
+      "Who is the head of the College of Health Sciences?"
+    ],
+    "responses": [
+      "The current dean of the College of Health Sciences is Dr. Joussie B. Bermio (ASSOCIATE PROFESSOR V)."
+    ]
+  },
+    
+  {
+    "tag": "CHTM_Dean",
+    "patterns": [
+      "Who is the dean of the College of Hospitality and Tourism Management?",
+      "Can you provide me information about the CHTM dean?",
+      "Who leads the CHTM department?",
+      "Who is the head of the College of Hospitality and Tourism Management?"
+    ],
+    "responses": [
+      "The current dean of the College of Hospitality and Tourism Management is Dr. Blessie B. Cabanting (ASSISTANT PROFESSOR II)."
+    ]
+  },
+      
+  {
+    "tag": "Law_Dean",
+    "patterns": [
+      "Who is the dean of the College of Law?",
+      "Can you provide me information about the CL dean?",
+      "Who leads the College of Law department?",
+      "Who is the head of the College of Law?"
+    ],
+    "responses": [
+      "The current dean of the College of Law is Atty. YAYE D. LARES (ASSOCIATE PROFESSOR II)."
+    ]
+  },
+
+  {
+    "tag": "CM_Dean",
+    "patterns": [
+      "Who is the dean of the College of Medicine?",
+      "Can you provide me information about the CM dean?",
+      "Who leads the CM department?",
+      "Who is the head of the College of Medicine?"
+    ],
+    "responses": [
+      "The current dean of the College of Medicine is DR. PABLO R. QUEDADO (ASSOCIATE PROFESSOR V)."
+    ]
+  },
+      
+  {
+    "tag": "CN_Dean",
+    "patterns": [
+      "Who is the dean of the College of Nursing?",
+      "Can you provide me information about the CN dean?",
+      "Who leads the CN department?",
+      "Who is the head of the College of Nursing?"
+    ],
+    "responses": [
+      "The current dean of the College of Nursing is Dr. FRANCIS DON L. NERO (ASSISTANT PROFESSOR III)."
+    ]
+  },
+          
+  {
+    "tag": "CSW_Dean",
+    "patterns": [
+      "Who is the dean of the College of Social Work?",
+      "Can you provide me information about the CSW dean?",
+      "Who leads the CSW department?",
+      "Who is the head of the College of Social Work?"
+    ],
+    "responses": [
+      "The current dean of the College of Social Work is Prof. Melody T. Gacita (ASSOCIATE PROFESSOR II)."
+    ]
+  },
+
+  {
+    "tag": "CE_Dean",
+    "patterns": [
+      "Who is the dean of the College of Engineering?",
+      "Can you provide me information about the CE dean?",
+      "Who leads the CE department?",
+      "Who is the head of the College of Engineering?"
+    ],
+    "responses": [
+      "The current dean of the College of Engineering is Engr. NELIA P. VERZOSA (PROFESSOR V)."
+    ]
+  },
+        
+  {
+    "tag": "CPA_Dean",
+    "patterns": [
+      "Who is the dean of the College of Public Administration?",
+      "Can you provide me information about the CPA dean?",
+      "Who leads the CPA department?",
+      "Who is the head of the College of Public Administration?"
+    ],
+    "responses": [
+      "The current dean of the College of Public Administration is Dr. JOSELITO D. DELA ROSA (ASSOCIATE PROFESSOR II)."
+    ]
+  },
+  {
+    "tag": "CTE_Dean",
+    "patterns": [
+      "Who is the dean of the College of Teacher Education?",
+      "Can you provide me information about the CTE dean?",
+      "Who leads the CTE department?",
+      "Who is the head of the College of Teacher Education?"
+    ],
+    "responses": [
+      "The current dean of the College of Teacher Education is Dr. MA. TERESA SUSAN L. MANZANO (ASSOCIATE PROFESSOR V)."
+    ]
+  },
+
+
+  {
+    "tag": "CTech_Dean",
+    "patterns": [
+      "Who is the dean of the College of Technology?",
+      "Can you provide me information about the CTech dean?",
+      "Who leads the CTech department?",
+      "Who is the head of the College of Technology?"
+    ],
+    "responses": [
+      "The current dean of the College of Technology is Dr. Julius Moises S. Albalos (ASSISTANT PROFESSOR IV)."
+    ]
+  }
+    ]
+}

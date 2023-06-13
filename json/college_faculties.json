@@ -1,0 +1,191 @@
+{
+    "intents": [
+{
+    "tag": "CA_Faculties",
+    "patterns": [
+      "Who are the professors in the College of Architecture?",
+      "Can you provide a list of the faculty members in CA?",
+      "Which professors teach in the CA department?",
+      "I want to know more about the faculty members in CA."
+    ],
+    "responses": [
+      "The College of Architecture has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in the CA department are: "
+    ]
+  },
+
+
+  {
+    "tag": "CAS_Faculties",
+    "patterns": [
+      "Who are the professors in the College of Arts and Sciences?",
+      "Can you provide a list of the faculty members in CAS?",
+      "Which professors teach in the CAS department?",
+      "I want to know more about the faculty members in CAS."
+    ],
+    "responses": [
+      "The College of Arts and Sciences has a diverse team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors who teach in CAS include:<br>\nACENA, MARIFEL QUEMI (ASSISTANTPROFESSOR IV),<br> AGUP, RANDOLF MELENDRES(ASSOCIATE PROFESSOR I),<br> ALLAGADAN, JOHNNY JR. AQUINO(ASSISTANT PROFESSOR I),<br> AYOP, ANTONIO NAROLLO(ASSISTANT PROFESSOR III),<br> BABIDA, PRECIOUS LYN CORNEJO(INSTRUCTOR I),<br> BORJE, MAXIMO JR. BAJET(ASSOCIATE PROFESSOR V),<br> DOMINGO, JESSY CORALLES(INSTRUCTOR I),<br> DUMBRIQUE, JEAN SAVELLANO(PROFESSOR VI),<br> EUROPA-MORALES, ANNA LIZA VILLANUEVA(ASSISTANT PROFESSOR IV),<br> FLORENTINO, CHRISTIAN GEA ASTOM(INSTRUCTOR I),<br> GARCIA, GRACE ALTUNA(ASSOCIATE PROFESSOR II),<br> GOROSPE, BONNA MAE SIA(ASSISTANT PROFESSOR II),<br> GUERRERO, IRENE ABIGAIL S(ASSISTANT PROFESSOR I),<br> ILAC, ADORA GIRON(ASSOCIATE PROFESSOR II),<br> MARTINEZ, ARCHIE(ASSISTANT PROFESSOR I),<br> MOLINA, MICO MARIÑAS(INSTRUCTOR I),<br> NAVARRO, REMEDIOS TOLENTINO(ASSOCIATE PROFESSOR V),<br> OBRERO, MARIO PADRON(PROFESSOR VI),<br> OBRERO, MARIQUIT MANGLIMAN(PROFESSOR III),<br> OBRERO, REMIGIO LOPEZ(ASSOCIATE PROFESSOR IV),<br> PAGAOA, CHRIS PAUL PATIL-AO(INSTRUCTOR I),<br> PAZ, CRIZZLE BAJET(INSTRUCTOR III),<br> PULA, JEEM CARLO F. (INSTRUCTOR I),<br> RABOY, MARITESS RABAGO(INSTRUCTOR II),<br> RAQUEPO, LEILANI REDUQUE(ASSOCIATE PROFESSOR II).<br> ROCAMORA, FATIMA FORONDA(PROFESSOR V),<br> ROJAS, CHARO BAGGAYAN(ASSISTANT PROFESSOR III),<br> ROJAS, REDENTOR SANGALANG(ASSOCIATE PROFESSOR V),<br> RUADAP, MAY EVELIA VALENCIA(ASSOCIATE PROFESSOR III),<br> SEGISMUNDO, ALMA BOLANTE(PROFESSOR I),<br> TACBAS, DEA MEIR LEDESMA(ASSISTANT PROFESSOR II),<br> TACTAY, NORIE TUZON (ASSISTANT PROFESSOR III),<br> TAJON, REGINALD PAMULO(ASSISTANT PROFESSOR II), and\n VENEZUELA, CHRISTY BELLON(ASSISTANT PROFESSOR IV)." ] },
+
+{
+    "tag": "CBAA_Faculties",
+    "patterns": [
+      "Who are the professors in the College of Business Administration and Accountancy?",
+      "Can you provide a list of the faculty members in CBAA?",
+      "Which professors teach in the CBAA department?",
+      "I want to know more about the faculty members in CBAA."
+    ],
+    "responses": [
+      "The College of Business Administration and Accountancy has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CBAA are:<br>\n AGUSTIN, MICHAEL ANTHONY BRILLO (INSTRUCTOR I),<br> ALCONIS, ANA LEAH ARQUELADA (ASSISTANT PROFESSOR II),<br> ALCONIS, DIMAS ANTONIO APANAY (ASSOCIATE PROFESSOR III),<br> ALMACHAR, NIÑO PATRICIO HERNANDEZ (ASSISTANT PROFESSOR II),<br> ALMERO, NATHALIE PACPACO (ASSOCIATE PROFESSOR IV),<br> AQUINO, LEONARDO BARADI (ASSOCIATE PROFESSOR IV),<br> ARCE, ROMEO JR. RIBERAL (INSTRUCTOR I),<br> ARRUEJO, ARPEE CALLEJO (INSTRUCTOR I),<br> BRIONES, GLENN PAUL ESLAVA (INSTRUCTOR I),<br> CASTRO, FLYNN VITAMOG (ASSISTANT PROFESSOR I),<br> CHAN, RICHEL ROYCE TORRES (INSTRUCTOR III),<br> DULDULAO, FRANCES RILLAMAS (ASSISTANT PROFESSOR II),<br> FERRER, ACE ALICARTE (ASSISTANT PROFESSOR I),<br> FOGATA, RYAN TABUTOL (INSTRUCTOR I),<br> LAURETA, MELVIN SALAMERO (ASSISTANT PROFESSOR I),<br> LIM, MAC KERWIN PACPACO (INSTRUCTOR I),<br> LLANES, SCOTT JASON PAREL (ASSISTANT PROFESSOR IV),<br> MALCABA, GERARD EDWIN FLORENO (ASSISTANT PROFESSOR III),<br> MALCABA, MODERINA ALMACHAR (ASSOCIATE PROFESSOR V),<br> MENDOZA, VICTORIA PINOL (ASSOCIATE PROFESSOR V),<br> MONTGOMERY, JERALD JAMES GUERRERO (INSTRUCTOR III),<br> NAVARRO, SHAREEN ALASAAS (INSTRUCTOR I),<br> PAJARILLO, GENEROSO GUDELIO PONCIANO (PROFESSOR VI),<br> PECHO, JONAH VIA CADORNA (INSTRUCTOR I),<br> PIAMONTE, ARISTOTLE TIPON (INSTRUCTOR I),<br> PICHAY-PETATE, APRIL JOY MADRIAGA (ASSISTANT PROFESSOR I),<br> PURUGGANAN, RAMON EMPLEO (ASSOCIATE PROFESSOR II),<br> QUEBRAL, PRINCESS NEPTALIA REYNANTE (ASSISTANT PROFESSOR II),<br> QUILON, EILEEN ROSE CABILDO (INSTRUCTOR I),<br> RABARA, JOEDETHE ARRUEJO (INSTRUCTOR I),<br> RABBON, KATHERINE ALON (INSTRUCTOR I),<br> REGALA, ROBERTO ENRIQUEZ (INSTRUCTOR I),<br> SERDENIA, JHONNIÑO AVILA (INSTRUCTOR I),<br> SORIA, JASTIN REYES (INSTRUCTOR III),<br> TOLBE, ERWIN TUBERA (ASSOCIATE PROFESSOR II),<br> UGALE, JOY EULALIA VILORIA (ASSISTANT PROFESSOR I), and<br> VALDEZ, GILBERT JR PINOL (INSTRUCTOR I) ." ] },
+
+  {
+    "tag": "CCIT_Faculties",
+    "patterns": [
+      "Who are the professors in the College of Communication and Information Technology?",
+      "Can you provide a list of the faculty members in CCIT?",
+      "Which professors teach in the CCIT department?",
+      "I want to know more about the faculty members in CCIT.",
+      "ccit faculty"
+    ],
+    "responses": [
+      "The College of Communication and Information Technology has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CCIT are:<br>\nAGUP, ROSANNE SADANGSAL (Instructor I)<br>ALASAAS, JENNYFER DOMENDEN (Instructor I)<br>ARRUEJO, RICHARD CORPUS (Instructor I)<br>BAJA, LEO ANGELOU BASA (Instructor I)<br>BASA, LEILANIE AMIGABLE (Assistant Professor III)<br>BUEN, DARYL VILLANUEVA (Instructor I)<br>CABANAS, GIAN PAOLO MARTIN (Instructor I)<br>COSTALES, HAROLD LIGSAY (Instructor I)<br>CUBON, CAREN KATE QUITORIANO (Instructor I)<br>DELLOSA, RHOWEL MERCADO (Associate Professor V)<br>LAMARCA, BRYAN IRVIN JOVEN (Associate Professor II)<br>MORALES, JOEL S (Instructor I)<br>PADUA, JOSEPH CUADRA (Assistant Professor I)<br>PERILLA, FERNANDINO SAGIPEL (Instructor II)<br>QUILANA, PAUL NIKKO TABULOC (Instructor I)<br>RABANAL, PETER RAGASA (Associate Professor V)<br>RABENA, ROGELIO RABENA (Instructor I)<br>RAMOS, ANGELITO TAMBOA (Instructor I)<br>ROMANO, MARIANO TABANGIN (Instructor I) and\nTACLA, MARIBEL TEODOSIO (Assistant Professor II)." ] },
+  {
+    "tag": "CCJE_Faculties",
+    "patterns": [
+    "Who are the professors in the College of Criminal Justice Education?",
+    "Can you provide a list of the faculty members in CCJE?",
+    "Which professors teach in the CCJE department?",
+    "I want to know more about the faculty members in CCJE."
+    ],
+    "responses": [
+      "The College of Criminal Justice Education has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CCJE are:<br>\nALESON, MYLINE CABO (ASSISTANT PROFESSOR II),<br>AMANO, GEORGE PHILLIPPE CARIAGA (INSTRUCTOR I),<br>BENZON, JENIFER DATO (INSTRUCTOR I),<br>BERSAMINA, DOLORES RAMOS (INSTRUCTOR I),<br>BESTRE, SINA CAYAT (ASSOCIATE PROFESSOR II),<br>CASTILLO, JACQUELINE FIGUERRES (INSTRUCTOR I),<br>CERNA, EDWIN QUIOCHO (INSTRUCTOR I),<br>NAVARRO, LORNA CABALCE (ASSISTANT PROFESSOR IV),<br>PACAPAC, MARLOW TIMBREZA (INSTRUCTOR I),<br>PACPACO, KEVIN MEL REMUCAL (INSTRUCTOR I),<br>PARIÑAS, MERVIC MORALES (ASSOCIATE PROFESSOR III),<br>REBURON, ARLAN GISALA (ASSOCIATE PROFESSOR III),<br>RILVERIA, LOIDA AMANO (INSTRUCTOR I),<br>ROJO, TRINIDAD PALADO (ASSOCIATE PROFESSOR II), and\nTOLIO, WILSON RAMIREZ (INSTRUCTOR I)." ] },
+
+    {
+      "tag": "CFAD_Faculties",
+      "patterns": [
+        "Who are the professors in the College of Fine Arts and Design?",
+        "Can you provide a list of the faculty members in CFAD?",
+        "Which professors teach in the CFAD department?",
+        "I want to know more about the faculty members in CFAD."
+      ],
+      "responses": [
+        "The College of Fine Arts and Design has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CFAD are:<br>\nFagela, Susana Tacal (Assistant Professor III),<br>Fetalvero, Henryson Arce (Associate Professor II),<br>Forneas, Sherwin Valera (Instructor II),<br>Martinez, Ashley Paulino Soller (Associate Professor V),<br>Perlas, Caesar Ziggy Quiday (Assistant Professor III),<br>Pilar, Karl Marx Paz (Instructor I), and\nReotutar, Mario Reotires (Instructor II)." ] },
+  
+  {
+    "tag": "CHS_Faculties",
+    "patterns": [
+    "Who are the professors in the College of Health Sciences?",
+    "Can you provide a list of the faculty members in CHS?",
+    "Which professors teach in the CHS department?",
+    "I want to know more about the faculty members in CHS."
+    ],
+    "responses": [
+      "The College of Health Sciences has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CHS are:<br>\nAGAD, VONNA VIC RACUYA (Instructor I),<br>ALBAYALDE, THEA D (Instructor I),<br>ALCAUSIN, MA. CRISTINA RIOS (Assistant Professor III),<br>ALVARO, SHERWIN VALDEZ (Assistant Professor I),<br>AQUINO, MARIA YOLANDA RAPADAS (Assistant Professor III),<br>ARIZALA, MARK CRISTIAN RAGANIT (Instructor III),<br>AVERO, ACE DANIELLE CLARO (Instructor I),<br>BASCONCILLO, LOWIE LYNETTE QUIBOL (Assistant Professor II),<br>BAUTISTA, LEILA SYLVIA FILARCA (Assistant Professor IV),<br>BERMIO, JOUSSIE BAJET (Associate Professor V),<br>BITONIO, JIHAN HEIDEE DUMLAO (Instructor I),<br>CABATU, AMANTE JR PORTUGAL (Associate Professor I),<br>CORPUZ, ALFREDO VITA (Assistant Professor III),<br>CORPUZ, RUTH REGINA BALBIN (Instructor I),<br>DARISAN, LORENA TACBAS (Assistant Professor II),<br>DAVID, KAREN BACLIG (Assistant Professor II),<br>DE PERALTA, GERALD CAEZAR ROSAL (Assistant Professor III),<br>DELA CRUZ, VENERAND FLORES (Instructor I),<br>FLORENTINO, CARMELA MONTOYA (Associate Professor V),<br>GALLARDO, NIGELL MIKHAIL AQUINO (Instructor I),<br>GERONA, IRENE MELANIE VILLANUEVA (Assistant Professor I),<br>GONZALES, ALMIRA ARISTA (Instructor I),<br>PALOMARES, GERALDINE ARELLANO (Instructor I),<br>QUEDDENG, MERCITA QUEYPO (Associate Professor V),<br>QUILANA, GREG PANOGAO (Assistant Professor I),<br>RAFANAN, EVELYN ANINAG (Assistant Professor II),<br>REOTUTAR, AMELIA JANE PASION (Instructor I),<br>RIOS, REBECCA NOLASCO (Assistant Professor III),<br>RODILLAS, FE RILLAMAS (Assistant Professor IV),<br>SAVELLA, MARLOU REG (Associate Professor V),<br>SOLIVEN, TEODORA RITA ROSARIO (Assistant Professor II),<br>TAMAYO, ROMELIA PIMIENTA (Assistant Professor IV),<br>UNCIANO, JOSE CERIA (Instructor I),<br>VELASCO, ADORA MENDOZA (Instructor I), and<br>VISTE, VINCENT BUENO (Instructor I)." ] },
+    
+    {
+      "tag": "CHTM_Faculties",
+      "patterns": [
+      "Who are the professors in the College of Hospitality and Tourism Management?",
+      "Can you provide a list of the faculty members in CHTM?",
+      "Which professors teach in the CHTM department?",
+      "I want to know more about the faculty members in CHTM."
+      ],
+      "responses": [
+        "The College of Hospitality and Tourism Management has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CHTM are:<br>\nBACLIG, ELIZABETH ARTATES (INSTRUCTOR I),<br>BACTADAN, RUBYLENE JANE TUBAÑA (INSTRUCTOR I),<br>CABANTING, BLESSIE BACLIG (ASSISTANT PROFESSOR II),<br>DAFUN, MARJORIE REA (ASSOCIATE PROFESSOR II),<br>MARTINEZ, KEVIN CESAR TORDA (INSTRUCTOR I),<br>PABLICO, MARILEN PELOVELLO (ASSOCIATE PROFESSOR II),<br>QUARIO, ROGELIO II DASARGO (INSTRUCTOR I), and\nREYNANTE, MITESSA-INAH REYNO (INSTRUCTOR I)." ] },
+      
+      {
+        "tag": "CL_Faculties",
+        "patterns": [
+        "Who are the professors in the College of Law?",
+        "Can you provide a list of the faculty members in CL?",
+        "Which professors teach in the CL department?",
+        "I want to know more about the faculty members in CL."
+        ],
+        "responses": [
+        "The College of Law has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the faculty members in CL are:<br>\nLARES, YAYE DOMOCMAT (ASSOCIATE PROFESSOR II),<br>MANGLAPUS, ARYAN CEASAR JIMENEZ (ASSISTANT PROFESSOR III),<br>PADUA, MEILYNE COROTAN (ASSISTANT PROFESSOR III),<br>PRADES, ZSARMAINE LEE SAGAY-OC (ASSISTANT PROFESSOR III),<br>SOLLER, JAMAILA AQUINO (ASSISTANT PROFESSOR III),<br>VEGA-ALVES, KRISTALYN PACIO (ASSISTANT PROFESSOR III), and<br>VERZOSA, MIRELA ANDRES (ASSISTANT PROFESSOR III)."
+        ]
+        },
+
+        {
+          "tag": "CM_Faculties",
+          "patterns": [
+            "Who are the professors in the College of Medicine?",
+            "Can you provide a list of the faculty members in CM?",
+            "Which professors teach in the CM department?",
+            "I want to know more about the faculty members in CM."
+          ],
+          "responses": [
+            "The College of Medicine has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CM are:<br>\nAGDAMAG, PEEBLE NARITA C (ASSOCIATE PROFESSOR II),<br>ANDAL, VIDA MARGARETTE DE VERA (ASSOCIATE PROFESSOR II),<br>BELLO, IVY CASTRO (ASSOCIATE PROFESSOR III),<br>BOLISLIS, MODESTO DAVID AZUL (ASSOCIATE PROFESSOR II),<br>BUTARDO, MAX GERONIMO TORRICER (ASSOCIATE PROFESSOR II),<br>CARTA, ROCHELLE BALLESTEROS (ASSOCIATE PROFESSOR II),<br>FIGUERRES, KRISTEN BENEDICT BELMES (ASSOCIATE PROFESSOR II),<br>GONZALO, DOMINETTA SOQUIBAL (ASSOCIATE PROFESSOR V),<br>ISAIS-AGDEPPA, AILYN TEOFILO (ASSOCIATE PROFESSOR III),<br>JANDOC, BRENDO VIERNES (ASSOCIATE PROFESSOR IV),<br>LAHOZ, ESPERANZA RASAY (ASSOCIATE PROFESSOR II),<br>LAZO, IRWINA MADRID (ASSOCIATE PROFESSOR V),<br>MABANAG, OLIVER NICOLAS PULMANO (ASSOCIATE PROFESSOR II),<br>QUEDADO, PABLO REYES (ASSOCIATE PROFESSOR V),<br>TAGORDA, ERNESTO RIGUNAY (ASSOCIATE PROFESSOR V),<br>TAGORDA, GLENDA OGSIMER (ASSOCIATE PROFESSOR V),<br>VELASCO, LUZ GREGORIA LAZO (ASSOCIATE PROFESSOR V),<br>VERA CRUZ, FRANCES JANINE BIADO (ASSISTANT PROFESSOR III), and\nVIADO, CRISPIN ALLAN TENEZA (ASSOCIATE PROFESSOR II)." ] },
+      
+        {
+          "tag": "CN_Faculties",
+          "patterns": [
+          "Who are the professors in the College of Nursing?",
+          "Can you provide a list of the faculty members in CN?",
+          "Which professors teach in the CN department?",
+          "I want to know more about the faculty members in CN."
+          ],
+          "responses": [
+            "The College of Nursing has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the faculty members are:<br>ABELLA, JEVIE ALEJON (ASSISTANT PROFESSOR I),<br>ABERO, RACEL DELA PAZ (INSTRUCTOR I),<br>ABINSAY, RIZZA CACANANTA (INSTRUCTOR I),<br>ADENA, LAURENCE A (INSTRUCTOR I),<br>AGUP, ROLLY MELEMDRES (ASSISTANT PROFESSOR I),<br>ALMACHAR, CLAUDINE HERNANDEZ (ASSISTANT PROFESSOR II),<br>ANICAS, MERCEDES PALO (ASSISTANT PROFESSOR III),<br>ARDE, BERNARDO OLIBER ALCONIS (ASSISTANT PROFESSOR IV),<br>ARROJO, ALYSSA MARIE A (INSTRUCTOR I),<br>ASANION, ROMELINE ARCE (ASSISTANT PROFESSOR I),<br>AVILA, SOREN PAULO CABUDOL (INSTRUCTOR I),<br>BANILAD, CHERRY BACLIG (INSTRUCTOR I),<br>BUENO, CHRISTIAN PAUL ASTRAQUILO (INSTRUCTOR I),<br>CABANTING, MATT JOSEPH TAGORDA (INSTRUCTOR I),<br>CABIDES, JENIFER TABORDA (INSTRUCTOR I),<br>CORTEZ, RICHMOND AUDREY A (INSTRUCTOR I),<br>DE GUZMAN, CATHLENE ATENDIDO DE (INSTRUCTOR I),<br>DELA PEÑA, RAYMUND CHRISTOPHER ROLDAN (ASSISTANT PROFESSOR II),<br>ESPIRITU, OFELIA RABE (ASSOCIATE PROFESSOR V),<br>FELICIANO, HYACINTH P (INSTRUCTOR I),<br>FLORENDO, MARICRIS BAUTISTA (INSTRUCTOR I),<br>FORNEAS, FRITCHY P (INSTRUCTOR I),<br>JAVIER, EDNA REBULDELA (ASSISTANT PROFESSOR I),<br>JOVEN, GERARDO FAMA (ASSISTANT PROFESSOR IV),<br>JOVEN, MARJORIE FRANCISCO (INSTRUCTOR II),<br>LOPEZ, LOVIE JAPHET S (INSTRUCTOR I),<br>MALAGUM, LADY JANE R. (INSTRUCTOR I),<br>MENDOZA, CONSTANTINO YABES (INSTRUCTOR I),<br>NERO, FRANCIS DON LANGOEY (ASSISTANT PROFESSOR III),<br>OBISPO, SHIELA GONZALES (ASSISTANT PROFESSOR II),<br>PALMA, MARY JULI-AN AZADA (INSTRUCTOR I),<br>PURISIMA, EPIFANIA MARLENE REFUERZO (ASSISTANT PROFESSOR II),<br>ROCERO, JONALYN R (INSTRUCTOR I)"
+        
+        ]
+        },
+          
+        {
+          "tag": "CSW_Faculties",
+          "patterns": [
+          "Who are the professors in the College of Social Work?",
+          "Can you provide a list of the faculty members in CSW?",
+          "Which professors teach in the CSW department?",
+          "I want to know more about the faculty members in CSW."
+          ],
+          "responses": [
+            "The College of Social Work has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CSW are:<br>\nANDAYA, KRISTALYN LORENZANA (INSTRUCTOR I),<br>ANICOCHE, JEANNE-LYN HORLADOR (INSTRUCTOR I),<br>CASTAÑEDA, LILIBETH CABIGON (INSTRUCTOR I),<br>COBANGBANG, IVY CHARMAINE ANCHETA (INSTRUCTOR I),<br>GACITA, MELODY TURQUEZA (ASSOCIATE PROFESSOR II),<br>PUNIO, JEZINELLE YADAO (INSTRUCTOR I),<br>and QUERO, AURORA RONDON (ASSOCIATE PROFESSOR IV)." ] },
+
+          {
+            "tag": "CE_Faculties",
+            "patterns": [
+              "Who are the professors in the College of Engineering?",
+              "Can you provide a list of the faculty members in CE?",
+              "Which professors teach in the CE department?",
+              "I want to know more about the faculty members in CE."
+            ],
+            "responses": [
+              "The College of Engineering has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CE are:<br>\nAMISTAD, FRANKLYN TINAZA (PROFESSOR IV),<br>AQUINO, NORBERTO II QUERO(INSTRUCTOR I),<br>AVERA, LUCILLE QUERUBIN(ASSISTANT PROFESSOR III),<br>BELIZAR, JOHNNY PIZARRO(ASSISTANT PROFESSOR I),<br>FRANDO, GAYLORD GARCIA(INSTRUCTOR I),<br>GASMEN, CHRISTY FAYE AYSON(INSTRUCTOR I),<br>NAVARRO, VICTOR BUENO(ASSISTANT PROFESSOR I),<br>NOLASCO, LEMUEL PEREZ(ASSISTANT PROFESSOR III),<br>PILIEN, VINCENT PARDO(INSTRUCTOR II),<br>QUERUBIN, NEREO TACNENG(ASSISTANT PROFESSOR I),<br>REYES, WILFREDO PILIPINA(ASSISTANT PROFESSOR IV),<br>RUSIBIN, ISIDORO JR EVANGELISTA(ASSOCIATE PROFESSOR IV),<br>TABLADA, SATURNINO TABANGAY(ASSISTANT PROFESSOR III),<br>VALENCIA, PAUL ROMMEL REQUILMAN(ASSISTANT PROFESSOR IV),<br>and VERZOSA, NELIA PILOTIN(PROFESSOR V)."
+            ]
+        },
+        
+        {
+          "tag": "CPA_Faculties",
+          "patterns": [
+          "Who are the professors in the College of Public Administration?",
+          "Can you provide a list of the faculty members in CPA?",
+          "Which professors teach in the CPA department?",
+          "I want to know more about the faculty members in CPA."
+          ],
+          "responses": [
+            "The College of Public Administration has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CPA are:<br>ANGELES, ARNULFO ASUNCION (ASSISTANT PROFESSOR IV)<br>ANICAS, ABELARDO ALIVIN (INSTRUCTOR I)<br>CARIÑO, IVY CAMPOS (INSTRUCTOR I)<br>DELA ROSA, JOSELITO DOLLENTE (ASSOCIATE PROFESSOR II)<br>JAVIER, CID ANCHETA (ASSOCIATE PROFESSOR II)<br>LOPEZ, MADELINE AQUINO (INSTRUCTOR I)<br>MADERA, LORAINE ANN ROMENA (INSTRUCTOR I)<br>PIO, ARNOLD PACLEB (INSTRUCTOR I)<br>RAGUNJAN, RUBEN RAPACON (ASSOCIATE PROFESSOR V)<br>RIVAD, JOANA ENCARNACION (INSTRUCTOR I)<br>and SALCEDO, SOCIETY VELASCO (ASSISTANT PROFESSOR II)." ] },
+          {
+            "tag": "CTE_Faculties",
+            "patterns": [
+              "Who are the professors in the College of Teacher Education?",
+              "Can you provide a list of the faculty members in CTE?",
+              "Which professors teach in the CTE department?",
+              "I want to know more about the faculty members in CTE."
+            ],
+            "responses": [
+              "The College of Teacher Education has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CTE are:<br>\nFaculty:<br>Aguilar, Irene Tadena (Assistant Professor II)<br>Aguinir, Rosette Marie Apostol (Instructor I)<br>Aquino, Jojit Damian (Instructor I)<br>Avila, Eva Marie Cabudol (Associate Professor V)<br>Avo, Honey Girl Aninag (Assistant Professor I)<br>Bañez, Solita Evangeline Soliven (Professor VI)<br>Barcena, Novelyn Toledo (Associate Professor IV)<br>Batin, Jeanina Bolante (Associate Professor III)<br>Bobita, Alma Josefina Amicay (Associate Professor II)<br>Bueno, Christopher Fuster (Professor VI)<br>Bueno, Eden Astraquilo (Associate Professor I)<br>Cabralas, Maria Rochelle Fontejon (Instructor I)<br>Concordia, Matilde Tabuso (Associate Professor III)<br>De Guzman, Fely Reburon (Assistant Professor III)<br>Fontejón, Dave Bellon (Instructor II)<br>Forneas, Ma. Theresa Valera (Instructor I)<br>Galapon, Efren Ulibas (Associate Professor I)<br>Gallardo, Flordelina Aquino (Associate Professor V)<br>Garcia, Jamaica Vizcarra (Instructor I)<br>Haluber, Christian Dem Rotor (Assistant Professor I)<br>Javier, Miriam Nogalo (Associate Professor V)<br>Joven, Anastacia Benzon (Assistant Professor IV)<br>Manzano, Ma. Teresa Susan Legaspi (Associate Professor V)<br>Marzan, Joey-Nell Tapiceria (Instructor I)<br>Naval, Vic Norman Fernandez (Instructor I) Pacpaco,<br>Eleuteria Remucal (Associate Professor V)<br>Pascua, Arthur Verbo (Instructor I)<br>Pichay, Jose Padillon (Associate Professor V)<br>Quitasol, Jake Mariñas (Instructor I)<br>Rabago, Claudette Cristal (Instructor I)<br>Rabanal, Glenda Chan (Associate Professor V)<br>Rambuyon, Rainalda Tabula (Associate Professor I)<br>Regucera, Reynaldo Ngayan (Instructor I)<br>Relon, Luzviminda Padios (Associate Professor V)<br>Reolalas, Santiago Rabino (Associate Professor IV)<br>Reotutar, Eric Frando (Associate Professor I)<br>Reotutar, Mark Angelo Caban (Assistant Professor IV)<br>Romo, Necy Cesaria Vaquilar (Professor III)<br>Somera, Alma Campos (Assistant Professor IV)<br>Taan, Jenny Lou Rabanal (Associate Professor I)<br>Tabilin, Marnie Pescador (Instructor I)<br>Talbo, Wendelyn Rodillas (Associate Professor I)<br>Ubilas, Nancy Tubon (Instructor I)<br>Villa, Rozen Cabico (Assistant Professor I)<br>LS Fadulty:<br>AARON, LESTER TAREJOS (Instructor I)<br>ABLOG, LORELY ARQUELADA (Assistant Professor II)<br>AGAM, FELICITAS RIZZA CHICOTE (Assistant Professor I)<br>ALAN, ROSELYN FAGELA (Instructor I)<br>ALUDINO, GLENN RAGUNTON (Instructor I)<br>DOMONDON, CHRISTIAN SIRUNO (Instructor I)<br>FULLER, NOVELYN TACTAY (Assistant Professor I)<br>GALANGCO, JEFFREY ESTELERO (Instructor I)<br>GARNACE, JAKE BRILLO (Instructor I)<br>LOPEZ, MILA AQUINO (Assistant Professor II)<br>MOLINA, JANET TABASAN (Instructor I)<br>PAGUIRIGAN, EDMAR MALSI (Instructor I)<br>PAGUIRIGAN, MARJORIE JANEL RAMOS (Instructor I)<br>PASCUA, ROSALINA RAPANUT (Associate Professor I)<br>PERE, CLARITA PADILLON (Assistant Professor II)<br>QUADRA, ISRAEL QUIRIT (Instructor I)<br>RABACAL, RANDALL MORALES (Instructor I)<br>RAFANAN, LAURA DANE RABENA (Instructor I)<br>RIN, ELMARIE TUBON (Instructor I)<br>SANTOS, NORLYN AGOOT (Instructor I)<br>TABBUAC, ARLENE KRISZEL MENDOZA (Instructor I)<br>TABIOS, AVELINA JARAMILLO (Assistant Professor I)<br>TABUNAN, WILMA RODILLAS (Assistant Professor III)<br>VITAMOG, AURELIA TOBIA (Associate Professor V)<br>YASAY, MARIBEL BELLON (Instructor I)<br>ARLEGUI, ANITA ASTRONOMO (Assistant Professor II)<br>MANLANGIT, SHIELA RABACAL (Instructor I)<br>CELEDONIO, RAFFY BARCELONA (Instructor I)." ] },
+
+
+          {
+            "tag": "CTech_Faculties",
+            "patterns": [
+            "Who are the professors in the College of Technology?",
+            "Can you provide a list of the faculty members in CTech?",
+            "Which professors teach in the CTech department?",
+            "I want to know more about the faculty members in CTech."
+            ],
+            "responses": [
+            "The College of Technology has a team of highly qualified and experienced faculty members, including professors, associate professors, and assistant professors. Some of the professors in CTech are:<br>\nABALOS, ELMER VIERNES(INSTRUCTOR I),<br>ALBALOS, JULIUS MOISES SANIDAD(ASSISTANT PROFESSOR IV),<br>AQUINO, EDGAR QUILLAYEN(ASSISTANT PROFESSOR I),<br>ARTATES ROLANDO SARMIENTO(ASSOCIATE PROFESSOR IV),<br>BAJET, NELSON AGCAMARAN(ASSOCIATE PROFESSOR III),<br>BALALLO, ELVIN ARRE(ASSISTANT PROFESSOR III),<br>CABALDON, JOSELITO QUIÑONEZ(INSTRUCTOR III),<br>CAJINDOS, JASON REYNANTE(ASSISTANT PROFESSOR I),<br>DACANAY, RODERICK IAN TORRICER(INSTRUCTOR III),<br>DE VERA, ALLEN MAGDALENO ALTUNA(ASSOCIATE PROFESSOR II),<br>GARCIA, JESUS CASTILLO(ASSOCIATE PROFESSOR III),<br>GUILLERMO, ALLAN QUELNAN(INSTRUCTOR II),<br>LAZO, EMSON AMIGABLE(INSTRUCTOR I),<br>PALMA, VINCENT GENARO AZADA(ASSISTANT PROFESSOR I),<br>PESCADOR, JOE ANDREW PACPACO(INSTRUCTOR I),<br>RACOMA, RYAN AQUINO(INSTRUCTOR I),<br>REAL, KARLO ROCA(ASSISTANT PROFESSOR II),<br>TABBUC, ORLINO TACTAY(ASSOCIATE PROFESSOR I),<br>TABUSO, WARMIE ROSARIO(INSTRUCTOR II),<br>TEODOSIO, HARRISON PERLAS(INSTRUCTOR I),<br>TOLENTINO, OSWALD TACATA(ASSISTANT PROFESSOR II),<br>and TOTAAN, JOSELITO AGDEPPA(ASSOCIATE PROFESSOR I)."
+            ]
+            }
+    ]
+}

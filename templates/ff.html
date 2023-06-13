@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Website Checklist</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Website Checklist</h1>
+	<p>Check the boxes to earn money!</p>
+	<form>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="20"> Check this box to earn PHP 20.</label><br>
+		<label><input type="checkbox" value="50"> Check this box to earn PHP 50.</label><br>
+		<label><input type="checkbox" value="50"> Check this box to earn PHP 50.</label><br>
+		<label><input type="checkbox" value="50"> Check this box to earn PHP 50.</label><br>
+		<label><input type="checkbox" value="50"> Check this box to earn PHP 50.</label><br>
+		<label><input type="checkbox" value="50"> Check this box to earn PHP 50.</label><br>
+		<label><input type="checkbox" value="100"> Check this box to earn PHP 100.</label><br>
+		<label><input type="checkbox" value="100"> Check this box to earn PHP 100.</label><br>
+		<label><input type="checkbox" value="100"> Check this box to earn PHP 100.</label><br>
+		<label><input type="checkbox" value="100"> Check this box to earn PHP 100.</label><br>
+		<label><input type="checkbox" value="100"> Check this box to earn PHP 100.</label><br>
+		<label><input type="checkbox" value="500"> Check this box to earn PHP 500.</label><br>
+		<label><input type="checkbox" value="500"> Check this box to earn PHP 500.</label><br>
+		<label><input type="checkbox" value="500"> Check this box to earn PHP 500.</label><br>
+		<label><input type="checkbox" value="500"> Check this box to earn PHP 500.</label><br>
+		<label><input type="checkbox" value="500"> Check this box to earn PHP 500.</label><br>
+		<label><input type="checkbox" value="1000"> Check this box to earn PHP 1000.</label><br>
+		<label><input type="checkbox" value="1000"> Check this box to earn PHP 1000.</label><br>
+        <label><input type="checkbox" value="1000"> Check this box to earn PHP 1000.</label><br>
+		<label><input type="checkbox" value="1000"> Check this box to earn PHP 1000.</label><br>
+		<button type="button" onclick="calculateEarnedMoney()">Calculate Earned Money</button>
+		<p id="earnedMoney"></p>
+	</form>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+<style>
+    body {
+	font-family: Arial, sans-serif;
+	background-color: #f0f0f0;
+}
+
+form {
+	margin: 20px auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	max-width: 800px;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #0077cc;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #005fa3;
+}
+
+p#earnedMoney {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+
+</style>
+
+<script>
+    function calculateEarnedMoney() {
+	const checkboxes = document.querySelectorAll('input[type="checkbox"]');
+	let earnedMoney = 0;
+	for (let i = 0; i < checkboxes.length; i++) {
+		if (checkboxes[i].checked) {
+			earnedMoney += parseInt(checkboxes[i].value);
+		}
+	}
+	const earnedMoneyParagraph = document.getElementById('earnedMoney');
+	earnedMoneyParagraph.innerHTML = `You have earned PHP ${earnedMoney}.`;
+}
+
+</script>
+</html>
+
